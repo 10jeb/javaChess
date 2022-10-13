@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Bishop extends Piece {
     public Bishop(Color c) { color = c; }
-    // implement appropriate methods
 
     public String toString() {
         String shade = null;
@@ -70,5 +69,4 @@ public class Bishop extends Piece {
         }
         return possibleMoves;
     }
-
 }
